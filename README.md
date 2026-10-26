@@ -27,21 +27,14 @@ Here I return to some of those stories. I update them with the latest data, take
 - **Eurostat data:** dataset codes, EU aggregates, breaks in series, flags. See [Working with Eurostat data](working-with-eurostat.md).
 - **Data visualisation in R:** ggplot2, one consistent design, reproducible code.
 
-## More
-
-- 📰 [All my published articles](publications.md)
-- 🗂️ [Working with Eurostat data](working-with-eurostat.md)
-- 📦 [Archive: my first recreations (2023)](archive/)
-- 📊 [My TidyTuesday charts](https://github.com/ZoiDiama/My-tidytuesday-projects)
 
 ## Repo layout
 
 | Folder | What's inside |
 |---|---|
 | [`case-studies/`](case-studies/) | One folder per story: write-up, R script and chart |
-| [`data/`](data/) | The Eurostat files the scripts use, as downloaded |
-| [`R/`](R/) | Shared theme for all charts |
-| [`archive/`](archive/) | My first recreations of these charts (2023) |
+| [`publications/`](publications/) |All my published articles |
+| [`working-with-eurostat/`](working-with-eurostat/) | Working with Eurostat data |
 
 ## Credits
 
