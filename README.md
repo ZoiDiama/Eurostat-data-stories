@@ -14,9 +14,33 @@ Many of those stories were written with data that stopped in 2018 or 2019, or in
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="case-studies/01-chemicals/"><img src="case-studies/01-chemicals/chemicals.png" width="100%" alt="Chemicals production chart"></a><br><b><a href="case-studies/01-chemicals/">EU chemical production fell 19% during the energy crisis</a></b><br><sub>Environment and energy · <code>env_chmhaz</code></sub></td>
-<td width="33%" valign="top"><i>Coming soon</i></td>
-<td width="33%" valign="top"><i>Coming soon</i></td>
+<td width="33%" valign="top">
+<a href="case-studies/01-chemicals/"><img src="case-studies/01-chemicals/chemicals.png" width="100%" alt="Line chart: EU chemical production index, 2015–2024"></a>
+<br><b><a href="case-studies/01-chemicals/">In 2024 the EU produced 14% fewer chemicals than in 2015</a></b>
+<br><img src="https://img.shields.io/badge/Environment_and_energy-E3F2E3" alt="Environment and energy">
+</td>
+<td width="33%" valign="top">
+<img src="case-studies/coming-soon.png" width="100%" alt="Coming soon">
+<br><b>Coming soon</b>
+</td>
+<td width="33%" valign="top">
+<img src="case-studies/coming-soon.png" width="100%" alt="Coming soon">
+<br><b>Coming soon</b>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<img src="case-studies/coming-soon.png" width="100%" alt="Coming soon">
+<br><b>Coming soon</b>
+</td>
+<td width="33%" valign="top">
+<img src="case-studies/coming-soon.png" width="100%" alt="Coming soon">
+<br><b>Coming soon</b>
+</td>
+<td width="33%" valign="top">
+<img src="case-studies/coming-soon.png" width="100%" alt="Coming soon">
+<br><b>Coming soon</b>
+</td>
 </tr>
 </table>
 
