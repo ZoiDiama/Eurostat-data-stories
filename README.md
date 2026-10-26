@@ -4,18 +4,17 @@
 
 ## About the project
 
-From 2020 to 2021 I worked as a statistical consultant on Eurostat's ["What's New"](https://ec.europa.eu/eurostat/web/main/news/news-articles) news items. I analysed the data and wrote the articles: **100+ published pieces** across labour, health, education, environment and the economy. The original visuals were produced by Eurostat's design team.
+From 2020 to 2021 I worked as a statistical consultant for a company contracted by Eurostat to produce its ["What's New"](https://ec.europa.eu/eurostat/en/news/news-articles) news items. For each item Eurostat set the topic and the dataset. I analysed the data, checked the figures, shaped the angle where there was room to, and wrote the text to Eurostat's short news format: **125 articles** across all of Eurostat's statistical themes, every one delivered on time.
 
-<!-- ✏️ YOUR WORDS: 1–2 sentences on what the work involved day to day
-     (e.g. choosing the story from a table, checking figures, working with the designer, deadlines). -->
+I was also the link between Eurostat, our partner and our design subcontractor. I set the deadlines, made clear what each article needed, briefed the graphic designer on the visuals, and handled the review rounds until each item was ready to publish.
 
-Here I return to some of those stories. I update them with the latest data, take the analysis further than the short news format allowed, and design my own charts in R.
+Many of those stories were written with data that stopped in 2018 or 2019, or in the middle of the pandemic. Today the data show what happened next. Here I return to some of them: I update them with the latest data, take the analysis further than the short news format allowed, and this time make the charts myself, in R.
 
 ## Case studies
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="case-studies/01-chemicals/"><img src="case-studies/01-chemicals/chemicals.png" width="100%" alt="Chemicals production chart"></a><br><b><a href="case-studies/01-chemicals/">EU chemical production fell 19% during the energy crisis</a></b><br><sub>Environment · <code>env_chmhaz</code></sub></td>
+<td width="33%" valign="top"><a href="case-studies/01-chemicals/"><img src="case-studies/01-chemicals/chemicals.png" width="100%" alt="Chemicals production chart"></a><br><b><a href="case-studies/01-chemicals/">EU chemical production fell 19% during the energy crisis</a></b><br><sub>Environment and energy · <code>env_chmhaz</code></sub></td>
 <td width="33%" valign="top"><i>Coming soon</i></td>
 <td width="33%" valign="top"><i>Coming soon</i></td>
 </tr>
@@ -27,14 +26,13 @@ Here I return to some of those stories. I update them with the latest data, take
 - **Eurostat data:** dataset codes, EU aggregates, breaks in series, flags. See [Working with Eurostat data](working-with-eurostat.md).
 - **Data visualisation in R:** ggplot2, one consistent design, reproducible code.
 
-
 ## Repo layout
 
 | Folder | What's inside |
 |---|---|
 | [`case-studies/`](case-studies/) | One folder per story: write-up, R script and chart |
-| [`publications/`](publications/) |All my published articles |
-| [`working-with-eurostat/`](working-with-eurostat/) | Working with Eurostat data |
+| [`publications.md`](publications.md) | All my published articles |
+| [`working-with-eurostat.md`](working-with-eurostat.md) | Working with Eurostat data |
 
 ## Credits
 
