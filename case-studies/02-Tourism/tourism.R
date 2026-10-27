@@ -13,10 +13,10 @@
 # (month, domestic, foreign), January 2020 - December 2025.
 
 # 0. SETUP -----------------------------------------------------------------
-# Run this script from its own folder (case-studies/02-tourism/).
+# Run this script from its own folder (case-studies/02-Tourism/).
 # In RStudio: Session > Set Working Directory > To Source File Location.
 # If your file has a different name, change it here.
-file_tour <- "../../data/tour_occ_nim_vs2019.xlsx"
+file_tour <- "tour_occ_nim__custom_23637203_spreadsheet.xlsx"   # in this folder
 
 if (!file.exists(file_tour)) stop("File not found: ", file_tour, "\nWorking directory is: ",
                                   getwd(), "\nSet the working directory to this script's ",

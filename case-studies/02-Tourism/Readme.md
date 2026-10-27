@@ -46,4 +46,4 @@ The original item stopped in April 2020. With monthly data up to December 2025, 
 
 ## Code
 
-[`tourism.R`](tourism.R) · data in [`data/tour_occ_nim_vs2019.xlsx`](../../data/tour_occ_nim_vs2019.xlsx), tab "Data"
+[`tourism.R`](tourism.R) · data in [`tour_occ_nim__custom_23637203_spreadsheet.xlsx`](tour_occ_nim__custom_23637203_spreadsheet.xlsx), tab "Data"
