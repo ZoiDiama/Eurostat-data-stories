@@ -64,8 +64,7 @@ What I learned about working with Eurostat data is in [working-with-eurostat.md]
 
 | Folder or file | What's inside |
 |---|---|
-| [`case-studies/`](case-studies/) | One folder per story: the write-up, the R script and the chart |
-| `data/` | The Eurostat files each script reads, as downloaded |
+| [`case-studies/`](case-studies/) | One folder per story: the write-up, the R script, data and the chart |
 | [`publications.md`](publications.md) | All 125 news items, grouped by Eurostat theme, with links to the originals |
 | [`working-with-eurostat.md`](working-with-eurostat.md) | Notes on Eurostat data: codes, aggregates, flags, breaks and more |
 | `archive/` | My earlier Eurostat charts (2023), kept for reference |
