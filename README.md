@@ -15,7 +15,7 @@ Each case study follows the same structure: **what was published** → **what I 
 <table>
 <tr>
 <td width="33%" valign="top">
-<a href="case-studies/01-chemicals"><img src="case-studies/01-chemicals/chemicals.png" alt="Line chart of EU chemical production, 2015–2024"></a><br>
+<a href="case-studies/01-Chemicals/chemicals.png"><img src="case-studies/01-Chemicals/chemicals.png" alt="Line chart of EU chemical production, 2015–2024"></a><br>
 <b>EU chemical production fell 19% during the energy crisis</b><br>
 <img src="https://img.shields.io/badge/Environment%20and%20energy-E3F2E3" alt="Environment and energy">
 </td>
