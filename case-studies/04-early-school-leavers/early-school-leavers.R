@@ -14,7 +14,7 @@
 # Run this script from its own folder (case-studies/04-early-school-leavers/).
 # In RStudio: Session > Set Working Directory > To Source File Location.
 # If your file has a different name, change it here.
-file_esl <- "../../data/edat_lfse_14.xlsx"
+file_esl <- "edat_lfse_14__custom_23689854_spreadsheet.xlsx"   # in this folder
 yr       <- "2025"   # latest year
 target   <- 9        # EU 2030 target: below 9%
 
@@ -114,7 +114,7 @@ st <- paste0(
 ct <- paste0("† Low reliability. * Definition differs. ",
              if (length(no_data) > 0) paste0("No ", yr, " data for ",
                                               paste(no_data, collapse = ", "), ". ") else "",
-             "Break in series in 2021 for all countries.<br>",
+             "Break in series in 2021 for all countries and in ", yr, " for Denmark.<br>",
              "Data source: Eurostat, edat_lfse_14 · Creator: Zoi Diamantakou")
 
 # 5. PLOT ------------------------------------------------------------------

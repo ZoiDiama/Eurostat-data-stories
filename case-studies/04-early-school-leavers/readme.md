@@ -49,4 +49,4 @@ So the EU total hides two different stories. Young women met the 2030 target yea
 
 ## Code
 
-[`early-school-leavers.R`](early-school-leavers.R) · data in [`data/edat_lfse_14.xlsx`](../../data/edat_lfse_14.xlsx), Sheets 1, 6 and 11
+[`early-school-leavers.R`](early-school-leavers.R) · data in [`edat_lfse_14__custom_23689854_spreadsheet.xlsx`](edat_lfse_14__custom_23689854_spreadsheet.xlsx), Sheets 1, 6 and 11
