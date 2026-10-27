@@ -42,7 +42,7 @@ Each case study follows the same structure: **what was published** → **what I 
 <img src="https://img.shields.io/badge/Health%20(regional%20map)-FCE4EC" alt="Health">
 </td>
 <td width="33%" valign="top">
-<img src="case-studies/coming-soon.png" alt="Coming soon"><br>
+<img src="case-studies/06-digital-skills/digital-skills.png" alt="Coming soon"><br>
 <b>ICT specialists: on track for 20 million by 2030?</b> · coming soon<br>
 <img src="https://img.shields.io/badge/Digital%20economy%20and%20society-E0F2F1" alt="Digital economy and society">
 </td>
