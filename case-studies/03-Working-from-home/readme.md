@@ -42,4 +42,4 @@ So COVID did not leave Europe working from home full-time. It left more people s
 
 ## Code
 
-[`working-from-home.R`](working-from-home.R) · data in [`data/lfsa_ehomp.xlsx`](../../data/lfsa_ehomp.xlsx), Sheet 1
+[`working-from-home.R`](working-from-home.R) · data in [`lfsa_ehomp$defaultview_spreadsheet.xlsx`](lfsa_ehomp%24defaultview_spreadsheet.xlsx), Sheet 1

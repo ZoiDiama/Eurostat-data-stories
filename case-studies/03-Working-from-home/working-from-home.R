@@ -9,10 +9,10 @@
 # browser. Sheet 1 = "Sometimes", total (both sexes), 15-64 years, employed persons.
 
 # 0. SETUP -----------------------------------------------------------------
-# Run this script from its own folder (case-studies/03-working-from-home/).
+# Run this script from its own folder (case-studies/03-Working-from-home/).
 # In RStudio: Session > Set Working Directory > To Source File Location.
 # If your file has a different name, change it here.
-file_wfh <- "../../data/lfsa_ehomp.xlsx"
+file_wfh <- "lfsa_ehomp$defaultview_spreadsheet.xlsx"   # in this folder
 y0 <- "2019"   # year of my news item
 y1 <- "2025"   # latest year
 
