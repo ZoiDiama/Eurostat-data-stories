@@ -8,7 +8,7 @@ Six of my Eurostat news items from 2020–2021, revisited with the latest data. 
 | 02 | [Tourism after the pandemic](https://github.com/ZoiDiama/Eurostat-data-stories/tree/main/case-studies/02-Tourism) | 16 Jul 2020 | `tour_occ_nim` | How long did EU tourism take to recover, and did domestic and foreign tourists recover differently? | 
 | 03 |[Working from home](https://github.com/ZoiDiama/Eurostat-data-stories/tree/main/case-studies/03-Working-from-home) | 24 Apr 2020 | `lfsa_ehomp` | Did working from home stay after the pandemic, and where did it change most? | 
 | 04 | [Early school leavers](https://github.com/ZoiDiama/Eurostat-data-stories/tree/main/case-studies/04-early-school-leavers) | 24 Jun 2021 | `edat_lfse_14`  | Has the EU reached its 2030 target of under 9%, and which countries are far from it? | Coming soon |
-| 05 | How many EU citizens die from influenza? | 7 April 2020 | `hlth_cd_asdr2` | How many people died from influenza the last years? |
+| 05 | [How many EU citizens die from influenza?](https://github.com/ZoiDiama/Eurostat-data-stories/tree/main/case-studies/05-deaths-from-influenze) | 7 April 2020 | `hlth_cd_asdr2` | How many people died from influenza the last years? |
 | 06 | ICT specialists | 16 Jul 2021 | `isoc_sks_itspt` <!-- ✏️ confirm code --> | Is the EU on track for 20 million ICT specialists by 2030, and how large is the gender gap? | Coming soon |
 
 ## How each write-up is structured
