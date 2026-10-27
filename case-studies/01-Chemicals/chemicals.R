@@ -9,10 +9,10 @@
 #   eurostat::get_eurostat("env_chmhaz", type = "label")
 
 # 0. SETUP -----------------------------------------------------------------
-# Run this script from its own folder (case-studies/01-chemicals/).
+# Run this script from its own folder (case-studies/01-Chemicals/).
 # In RStudio: Session > Set Working Directory > To Source File Location.
 # If your file has a different name, change it here.
-file_chem <- "../../data/env_chmhaz.csv.gz"
+file_chem <- "env_chmhaz__custom_23616204_linear.csv.gz"   # in this folder
 
 if (!file.exists(file_chem)) stop("File not found: ", file_chem, "\nWorking directory is: ",
                                   getwd(), "\nSet the working directory to this script's ",
