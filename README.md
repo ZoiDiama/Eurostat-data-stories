@@ -25,7 +25,7 @@ Each case study follows the same structure: **what was published** → **what I 
 <br><img src="https://img.shields.io/badge/Tourism-FDEBD3" alt="Tourism">
  </td> 
 <td width="33%" valign="top">
-<img src="case-studies/coming-soon.png" alt="Coming soon"><br>
+<img src="case-studies/03-Working-from-home/working-from-home.png" alt="Coming soon"><br>
 <b>Working from home after the pandemic</b> · coming soon<br>
 <img src="https://img.shields.io/badge/Labour%20market-E4ECFB" alt="Labour market">
 </td>
