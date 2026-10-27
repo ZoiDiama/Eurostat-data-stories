@@ -1,6 +1,6 @@
 # Published articles
 
-News items I analysed and wrote for Eurostat's ["What's New"](https://ec.europa.eu/eurostat/en/news/news-articles) section, January 2020 – December 2021: **125 articles**. The visuals in the original articles were made by a design subcontractor, not by me. ★ = revisited as a [case study](README.md#case-studies).
+News items I analysed and wrote for Eurostat's ["What's New"](https://ec.europa.eu/eurostat/en/news/news-articles) section, January 2020 – December 2021: **125 articles**. The visuals in the original articles were made by a design subcontractor, not by me. ★ = revisited as a [case study](case-studies/).
 
 Articles are grouped by Eurostat's [statistical themes](https://ec.europa.eu/eurostat/data/statistical-themes), newest first. Each case study names the dataset it uses. The largest theme, Population and social conditions, is split into Eurostat's topics.
 
@@ -60,7 +60,7 @@ Articles are grouped by Eurostat's [statistical themes](https://ec.europa.eu/eur
 | 2 Sep 2020 | [Assault-related death rate on the decline](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200902-1) |
 | 14 Aug 2020 | [Two-thirds of deaths under 75 could have been avoided](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200814-1) |
 | 28 Apr 2020 | [Are EU citizens safe at work?](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/EDN-20200428-1) |
-| 7 Apr 2020 | [How many EU citizens die from influenza?](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200407-1) |
+| 7 Apr 2020 | [How many EU citizens die from influenza?](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200407-1) ★ [case study](case-studies/05-deaths-from-influenze/) |
 | 24 Mar 2020 | [How many deaths from tuberculosis recorded in the EU?](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/EDN-20200324-1) |
 | 19 Mar 2020 | [Deaths due to kidney diseases in the EU](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/EDN-20200319-1) |
 
@@ -79,7 +79,7 @@ Articles are grouped by Eurostat's [statistical themes](https://ec.europa.eu/eur
 | 24 Sep 2021 | [What languages are studied the most in the EU?](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/edn-20210924-2) |
 | 2 Sep 2021 | [Young people in education and the labour market in 2020](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/ddn-20210902-1) |
 | 25 Jun 2021 | [Four in ten young adults hold a tertiary degree](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/ddn-20210625-1) |
-| 24 Jun 2021 | [Continued decline in early school leavers in the EU](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/ddn-20210624-2) |
+| 24 Jun 2021 | [Continued decline in early school leavers in the EU](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/ddn-20210624-2) ★ [case study](case-studies/04-early-school-leavers/) |
 | 5 Oct 2020 | [Teachers in the EU](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/teachers-in-the-eu) |
 | 28 Aug 2020 | [Mobile tertiary students from abroad in the EU](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200828-1) |
 
@@ -111,7 +111,7 @@ Articles are grouped by Eurostat's [statistical themes](https://ec.europa.eu/eur
 | 18 May 2020 | [Temporary agency workers across EU regions](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200518-1) |
 | 11 May 2020 | [Coronavirus may drive change in precarious employment](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200511-1) |
 | 1 May 2020 | [Working parents with young children in the EU](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200501-1) |
-| 24 Apr 2020 | [How usual is it to work from home?](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200424-1) |
+| 24 Apr 2020 | [How usual is it to work from home?](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200424-1) ★ [case study](case-studies/03-Working-from-home/) |
 | 6 Mar 2020 | [Women’s employment in the EU](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/EDN-20200306-1) |
 
 ### Income and living conditions
@@ -157,7 +157,7 @@ Articles are grouped by Eurostat's [statistical themes](https://ec.europa.eu/eur
 | 23 Oct 2020 | [Domestic tourism recovers faster than foreign tourism](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20201023-1) |
 | 20 Aug 2020 | [Where does your ice cream come from?](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200820-1) |
 | 13 Aug 2020 | [Which EU country is the biggest producer of bicycles?](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200813-2) |
-| 16 Jul 2020 | [Tourism nights dropped sharply in March and April 2020](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200716-1) |
+| 16 Jul 2020 | [Tourism nights dropped sharply in March and April 2020](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200716-1) ★ [case study](case-studies/02-Tourism/) |
 | 13 May 2020 | [How could coronavirus impact EU tourism?](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200513-2) |
 | 14 Apr 2020 | [Foreign-controlled enterprises in EU: value added](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200414-1) |
 | 23 Mar 2020 | [168 million arrivals by non-EU tourists in 2018](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200323-1) |
@@ -201,7 +201,7 @@ Articles are grouped by Eurostat's [statistical themes](https://ec.europa.eu/eur
 | 8 Jan 2021 | [Wind and water provide most renewable electricity](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/ddn-20210108-1) |
 | 31 Mar 2020 | [EU trade in recyclable raw materials](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200331-2) |
 | 19 Feb 2020 | [Environmental taxes in the EU](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200219-1) |
-| 21 Jan 2020 | [Production of chemicals](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200121-1) ★ [case study](case-studies/01-chemicals/) |
+| 21 Jan 2020 | [Production of chemicals](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200121-1) ★ [case study](case-studies/01-Chemicals/) |
 
 ## Science, technology, and digital society
 
@@ -215,7 +215,7 @@ Articles are grouped by Eurostat's [statistical themes](https://ec.europa.eu/eur
 | 13 Oct 2020 | [Social media: security concerns of sharing information](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/EDN-20201013-1) |
 | 2 Oct 2020 | [1 in 5 enterprises insured for ICT security incidents](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/EDN-20201002-1) |
 | 15 Jul 2020 | [Do young people in the EU have digital skills?](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/EDN-20200715-1) |
-| 14 May 2020 | [Digital skills of EU citizens living with children](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/EDN-20200514-1) |
+| 14 May 2020 | [Digital skills of EU citizens living with children](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/EDN-20200514-1) ★ [case study](case-studies/06-digital-skills/) |
 | 14 Apr 2020 | [Household broadband connection across EU regions](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200414-2) |
 | 27 Mar 2020 | [53% of EU citizens sought health information online](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200327-1) |
 | 24 Feb 2020 | [One in two EU enterprises use social media](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200224-1) |

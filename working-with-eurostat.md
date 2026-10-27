@@ -23,7 +23,7 @@ chem <- get_eurostat("env_chmhaz", type = "label")
 | EU-28 | 2013 – January 2020, including the UK | Used in articles published before February 2020 |
 | EU-27 (2020) | From February 2020, without the UK | Old and new series cannot be joined into one line |
 
-**Example:** in my 2020 chemicals item, 2018 production was 301 million tonnes (EU-28). The same year now reads 274 million tonnes (EU-27). [See case study 01](case-studies/01-chemicals/).
+**Example:** in my 2020 chemicals item, 2018 production was 301 million tonnes (EU-28). The same year now reads 274 million tonnes (EU-27). [See case study 01](case-studies/01-Chemicals/).
 
 ## 3. Flags
 

@@ -15,41 +15,41 @@ Each case study follows the same structure: **what was published** → **what I 
 <table>
 <tr>
 <td width="33%" valign="top">
-<a href="case-studies/01-Chemicals/chemicals.png"><img src="case-studies/01-Chemicals/chemicals.png" alt="Line chart of EU chemical production, 2015–2024"></a><br>
-<b>EU chemical production fell 19% during the energy crisis</b><br>
-<img src="https://img.shields.io/badge/Environment%20and%20energy-E3F2E3" alt="Environment and energy">
+<a href="case-studies/01-Chemicals/"><img src="case-studies/01-Chemicals/chemicals.png" width="100%" alt="Line chart: production of chemicals in the EU, index 2015 = 100, 2015–2024"></a>
+<br><b><a href="case-studies/01-Chemicals/">In 2024 the EU produced 14% fewer chemicals than in 2015</a></b>
+<br><a href="case-studies/01-Chemicals/"><img src="https://img.shields.io/badge/Environment%20and%20energy-E3F2E3" alt="Environment and energy"></a>
 </td>
 <td width="33%" valign="top">
 <a href="case-studies/02-Tourism/"><img src="case-studies/02-Tourism/tourism.png" width="100%" alt="Line chart: EU tourism nights as % of the same month in 2019, domestic and foreign, 2020–2025"></a>
-<br><b><a href="case-studies/02-tourism/">After COVID, EU domestic tourism recovered first, but foreign grew more</a></b>
-<br><img src="https://img.shields.io/badge/Tourism-FDEBD3" alt="Tourism">
- </td> 
+<br><b><a href="case-studies/02-Tourism/">After COVID, EU domestic tourism recovered first, but foreign grew more</a></b>
+<br><a href="case-studies/02-Tourism/"><img src="https://img.shields.io/badge/Tourism-FDEBD3" alt="Tourism"></a>
+</td>
 <td width="33%" valign="top">
-<img src="case-studies/03-Working-from-home/working-from-home.png" alt="Coming soon"><br>
-<b>Working from home after the pandemic</b> · coming soon<br>
-<img src="https://img.shields.io/badge/Labour%20market-E4ECFB" alt="Labour market">
+<a href="case-studies/03-Working-from-home/"><img src="case-studies/03-Working-from-home/working-from-home.png" width="100%" alt="Dumbbell chart: share of employed people who sometimes work from home, 2019 and 2025, by EU country"></a>
+<br><b><a href="case-studies/03-Working-from-home/">Since COVID, hybrid working has grown in all 27 EU countries</a></b>
+<br><a href="case-studies/03-Working-from-home/"><img src="https://img.shields.io/badge/Labour%20market-E4ECFB" alt="Labour market"></a>
 </td>
 </tr>
 <tr>
 <td width="33%" valign="top">
-<img src="case-studies/04-early-school-leavers/early-school-leavers.png" alt="Coming soon"><br>
-<b>Early school leavers and the 2030 target</b> · coming soon<br>
-<img src="https://img.shields.io/badge/Education%20and%20training-F3E5F5" alt="Education and training">
+<a href="case-studies/04-early-school-leavers/"><img src="case-studies/04-early-school-leavers/early-school-leavers.png" width="100%" alt="Scatter plot: early leavers, young men vs young women by EU country, 2025, against the 2030 target"></a>
+<br><b><a href="case-studies/04-early-school-leavers/">The EU is close to its 2030 school target, but young men are holding it back</a></b>
+<br><a href="case-studies/04-early-school-leavers/"><img src="https://img.shields.io/badge/Education%20and%20training-F3E5F5" alt="Education and training"></a>
 </td>
 <td width="33%" valign="top">
-<img src="case-studies/05-deaths-from-influenze/influenza.png" alt="Coming soon"><br>
-<b>Prostate cancer deaths across EU regions</b> · coming soon<br>
-<img src="https://img.shields.io/badge/Health%20(regional%20map)-FCE4EC" alt="Health">
+<a href="case-studies/05-deaths-from-influenze/"><img src="case-studies/05-deaths-from-influenze/influenza.png" width="100%" alt="Heatmap: influenza death rate by EU country and year, 2011–2023"></a>
+<br><b><a href="case-studies/05-deaths-from-influenze/">Flu deaths almost vanished in the EU in 2021, then came back</a></b>
+<br><a href="case-studies/05-deaths-from-influenze/"><img src="https://img.shields.io/badge/Health-FCE4EC" alt="Health"></a>
 </td>
 <td width="33%" valign="top">
-<img src="case-studies/06-digital-skills/digital-skills.png" alt="Coming soon"><br>
-<b>ICT specialists: on track for 20 million by 2030?</b> · coming soon<br>
-<img src="https://img.shields.io/badge/Digital%20economy%20and%20society-E0F2F1" alt="Digital economy and society">
+<a href="case-studies/06-digital-skills/"><img src="case-studies/06-digital-skills/digital-skills.png" width="100%" alt="Progress bars: share of people with basic digital skills by EU country, 2025, against the 2030 target"></a>
+<br><b><a href="case-studies/06-digital-skills/">In 2025, only 4 EU countries had reached the 2030 digital skills target</a></b>
+<br><a href="case-studies/06-digital-skills/"><img src="https://img.shields.io/badge/Digital%20economy%20and%20society-E0F2F1" alt="Digital economy and society"></a>
 </td>
 </tr>
 </table>
 
-All case studies are listed in [case-studies](case-studies/), and all 125 articles are in [publications.md](publications.md).
+Click a chart or its title to open the case study. All six are also listed in [case-studies](case-studies/), and all 125 articles are in [publications.md](publications.md).
 
 ## What this repo shows
 
@@ -64,7 +64,7 @@ What I learned about working with Eurostat data is in [working-with-eurostat.md]
 
 | Folder or file | What's inside |
 |---|---|
-| [`case-studies/`](case-studies/) | One folder per story: the write-up, the R script, data and the chart |
+| [`case-studies/`](case-studies/) | One folder per story: the write-up (`readme.md`), the R script, the data as downloaded from Eurostat, and the chart |
 | [`publications.md`](publications.md) | All 125 news items, grouped by Eurostat theme, with links to the originals |
 | [`working-with-eurostat.md`](working-with-eurostat.md) | Notes on Eurostat data: codes, aggregates, flags, breaks and more |
 
