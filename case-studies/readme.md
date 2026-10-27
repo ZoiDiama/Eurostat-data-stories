@@ -6,7 +6,7 @@ Six of my Eurostat news items from 2020–2021, revisited with the latest data. 
 |---|---|---|---|---|---|
 | 01 | [Production of chemicals](https://github.com/ZoiDiama/Eurostat-data-stories/tree/main/case-studies/01-Chemicals) | 21 Jan 2020 | `env_chmhaz` | What happened to production after 2018? | ✅ Done |
 | 02 | [Tourism after the pandemic](https://github.com/ZoiDiama/Eurostat-data-stories/tree/main/case-studies/02-Tourism) | 16 Jul 2020 | `tour_occ_nim` | How long did EU tourism take to recover, and did domestic and foreign tourists recover differently? | ✅ Done |
-| 03 | Working from home | 24 Apr 2020 | `lfsa_ehomp` <!-- ✏️ confirm code --> | Did working from home stay after the pandemic, and where did it change most? | Coming soon |
+| 03 |[Working from home](https://github.com/ZoiDiama/Eurostat-data-stories/tree/main/case-studies/03-Working-from-home) | 24 Apr 2020 | `lfsa_ehomp` | Did working from home stay after the pandemic, and where did it change most? | ✅ Done |
 | 04 | Early school leavers | 24 Jun 2021 | `edat_lfse_14` <!-- ✏️ confirm code --> | Has the EU reached its 2030 target of under 9%, and which countries are far from it? | Coming soon |
 | 05 | Prostate cancer deaths in EU regions | 19 Nov 2020 | `hlth_cd_asdr2` <!-- ✏️ confirm code --> | Where are men most likely to die from prostate cancer, once we account for age? | Coming soon |
 | 06 | ICT specialists | 16 Jul 2021 | `isoc_sks_itspt` <!-- ✏️ confirm code --> | Is the EU on track for 20 million ICT specialists by 2030, and how large is the gender gap? | Coming soon |
