@@ -4,7 +4,7 @@ Six of my Eurostat news items from 2020–2021, revisited with the latest data. 
 
 | # | Story | Original news item | Dataset | Question I explore | Status |
 |---|---|---|---|---|---|
-| 01 | [Production of chemicals](case-studies/01-Chemicals) | 21 Jan 2020 | `env_chmhaz` | What happened to production after 2018? | ✅ Done |
+| 01 | [Production of chemicals](/01-Chemicals) | 21 Jan 2020 | `env_chmhaz` | What happened to production after 2018? | ✅ Done |
 | 02 | [Tourism after the pandemic](02-tourism/) | 16 Jul 2020 | `tour_occ_nim` | How long did EU tourism take to recover, and did domestic and foreign tourists recover differently? | ✅ Done |
 | 03 | Working from home | 24 Apr 2020 | `lfsa_ehomp` <!-- ✏️ confirm code --> | Did working from home stay after the pandemic, and where did it change most? | Coming soon |
 | 04 | Early school leavers | 24 Jun 2021 | `edat_lfse_14` <!-- ✏️ confirm code --> | Has the EU reached its 2030 target of under 9%, and which countries are far from it? | Coming soon |
