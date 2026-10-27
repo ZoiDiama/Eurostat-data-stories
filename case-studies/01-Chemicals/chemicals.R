@@ -7,20 +7,33 @@
 # Data: Eurostat, env_chmhaz (Production and consumption of chemicals by hazard class)
 # Downloaded from the Eurostat data browser. To fetch it live instead:
 #   eurostat::get_eurostat("env_chmhaz", type = "label")
-# Colours and font follow the Eurostat visual style guide (2022).
+
+# 0. SETUP -----------------------------------------------------------------
+# Run this script from its own folder (case-studies/01-chemicals/).
+# In RStudio: Session > Set Working Directory > To Source File Location.
+# If your file has a different name, change it here.
+file_chem <- "../../data/env_chmhaz.csv.gz"
+
+if (!file.exists(file_chem)) stop("File not found: ", file_chem, "\nWorking directory is: ",
+                                  getwd(), "\nSet the working directory to this script's ",
+                                  "folder, or change the file name in section 0.")
 
 # 1. LIBRARIES -------------------------------------------------------------
+pkgs <- c("tidyverse", "showtext", "ggtext")
+missing <- pkgs[!pkgs %in% rownames(installed.packages())]
+if (length(missing) > 0) install.packages(missing)
+
 library(tidyverse)
 library(showtext)
 library(ggtext)
 
-# Arial is Eurostat's standard typeface for digital products
-font_add("arial", regular = "arial.ttf", bold = "arialbd.ttf")
+font_add_google("Poppins", "poppins")   # needs internet the first time
 showtext_auto()
 showtext_opts(dpi = 288)
+fam <- "poppins"
 
 # 2. DATA ------------------------------------------------------------------
-chem <- read_csv("../../data/env_chmhaz.csv.gz", show_col_types = FALSE) |>
+chem <- read_csv(file_chem, show_col_types = FALSE) |>
   transmute(indicator = indic_env, hazard, year = TIME_PERIOD, mt = OBS_VALUE)
 
 # 3. WRANGLING -------------------------------------------------------------
@@ -46,28 +59,35 @@ hea_last <- idx("Hazardous to health", last)            # 86
 tot_peak <- prod |> filter(group == "All chemicals") |> slice_max(index, n = 1)
 tot_low  <- prod |> filter(group == "All chemicals") |> slice_min(index, n = 1)
 
-# Labels at the end of each line
-# (all chemicals and health end at the same value, so they are pushed apart)
+# Labels at the end of each line. Poppins is wider than Arial, so the long
+# label is split over two lines. All chemicals and health end at the same
+# value, so they are pushed apart.
+end_names <- c("All chemicals"                = "All chemicals",
+               "Hazardous to health"          = "Hazardous to health",
+               "Hazardous to the environment" = "Hazardous to<br>the environment")
 ends <- prod |> filter(year == last) |>
-  mutate(label = paste0("**", group, "**<br>", round(index)),
-         y = index + c(2.6, -2.6, 0)[as.integer(group)])
+  mutate(label = paste0("**", end_names[as.character(group)], "**<br>", round(index)),
+         y = index + c(2.6, -2.8, 0.5)[as.integer(group)])
 
 # 4. COLOURS & TEXT --------------------------------------------------------
-# Eurostat visual style guide: EU Blue (primary) and secondary palette colours
-cols <- c("All chemicals"                = "#0E47CB",   # EU Blue
-          "Hazardous to health"          = "#AF155C",   # secondary, light theme
-          "Hazardous to the environment" = "#33A033")   # secondary, light theme
-ink   <- "#262B38"   # EU Grey
-muted <- "#515560"
-faint <- "#7D8088"
+# Text colours: my chart style. Line colours: dark for the total, then orange
+# and teal, which stay distinct for colour-blind readers (no red with green).
+cols <- c("All chemicals"                = "#1A1A1A",
+          "Hazardous to health"          = "#E07A1F",
+          "Hazardous to the environment" = "#1F7A80")
+ink   <- "#1A1A1A"   # title
+muted <- "#5A5A5A"   # subtitle, annotations
+faint <- "#7A7A7A"   # caption, axis text
 grid  <- "#E6E6E6"
+shade <- "#F2F2F2"
 
 tt <- paste0("In ", last, " the EU produced ", round(100 - tot_last),
              "% fewer chemicals than in ", base_year)
 
 st <- paste0(
   "Production of chemicals in the EU, index ", base_year, " = 100. ",
-  "A value of 86 means production was 14% below the ", base_year, " level. ",
+  "A value of ", round(tot_last), " means production was ", round(100 - tot_last),
+  "% below the ", base_year, " level. ",
   "Production peaked in ", tot_peak$year, " and fell to its lowest in ", tot_low$year,
   " (", round(tot_low$index), "), during the energy price crisis. ",
   "Chemicals <span style='color:", cols["Hazardous to the environment"],
@@ -81,20 +101,16 @@ ct <- paste0("EU-27 (2020). A chemical can be hazardous to both health and the e
 
 # 5. PLOT ------------------------------------------------------------------
 p <- ggplot(prod, aes(year, index, colour = group)) +
-  annotate("rect", xmin = 2021.5, xmax = 2023.5, ymin = -Inf, ymax = Inf, fill = "#F4F4F4") +
-  annotate("text", x = 2022.5, y = 110.5, label = "Energy\nprice crisis", family = "arial",
+  annotate("rect", xmin = 2021.5, xmax = 2023.5, ymin = -Inf, ymax = Inf, fill = shade) +
+  annotate("text", x = 2022.5, y = 110.5, label = "Energy\nprice crisis", family = fam,
            size = 2.5, colour = muted, lineheight = 0.95, vjust = 1) +
   geom_hline(yintercept = 100, colour = faint, linewidth = 0.4) +
   annotate("text", x = last + 0.25, y = 100, label = paste0(base_year, " = 100"), hjust = 0,
-           vjust = -0.5, family = "arial", size = 2.4, colour = faint) +
-  annotate("segment", x = 2018, xend = 2018, y = 76, yend = 108, colour = "#C9C9C9",
-           linewidth = 0.4, linetype = "22") +
-  annotate("text", x = 2018.1, y = 110.5, hjust = 0, vjust = 1, family = "arial", size = 2.5,
-           colour = muted, lineheight = 0.95, label = "Last year in my\n2020 news item") +
+           vjust = -0.5, family = fam, size = 2.4, colour = faint) +
   geom_line(linewidth = 1.2) +
   geom_point(data = filter(prod, year == last), size = 2.2) +
   geom_richtext(data = ends, aes(x = last + 0.25, y = y, label = label), hjust = 0,
-                family = "arial", size = 2.7, fill = NA, label.colour = NA,
+                family = fam, size = 2.6, fill = NA, label.colour = NA,
                 lineheight = 1.1, show.legend = FALSE) +
   scale_colour_manual(values = cols, guide = "none") +
   scale_x_continuous(breaks = 2015:2024, expand = expansion(add = c(0.3, 2.8))) +
@@ -102,11 +118,11 @@ p <- ggplot(prod, aes(year, index, colour = group)) +
   coord_cartesian(clip = "off") +
   labs(title = tt, subtitle = st, caption = ct, x = NULL,
        y = paste0("Index, ", base_year, " = 100")) +
-  theme_minimal(base_family = "arial") +
+  theme_minimal(base_family = fam) +
   theme(
     plot.title.position   = "plot",
     plot.caption.position = "plot",
-    plot.title = element_textbox_simple(face = "bold", size = 21, colour = ink,
+    plot.title = element_textbox_simple(face = "bold", size = 22, colour = ink,
                                         lineheight = 1.1, margin = margin(b = 12)),
     plot.subtitle = element_textbox_simple(size = 10.5, colour = muted,
                                            lineheight = 1.3, margin = margin(b = 16)),
