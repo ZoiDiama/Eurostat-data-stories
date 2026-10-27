@@ -32,7 +32,7 @@ Each case study follows the same structure: **what was published** → **what I 
 </tr>
 <tr>
 <td width="33%" valign="top">
-<img src="case-studies/03-Working-from-home/working-from-home.png" alt="Coming soon"><br>
+<img src="case-studies/04-early-school-leavers/early-school-leavers.png" alt="Coming soon"><br>
 <b>Early school leavers and the 2030 target</b> · coming soon<br>
 <img src="https://img.shields.io/badge/Education%20and%20training-F3E5F5" alt="Education and training">
 </td>
