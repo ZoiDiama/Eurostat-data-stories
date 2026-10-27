@@ -20,10 +20,10 @@ Each case study follows the same structure: **what was published** → **what I 
 <img src="https://img.shields.io/badge/Environment%20and%20energy-E3F2E3" alt="Environment and energy">
 </td>
 <td width="33%" valign="top">
-<a href="case-studies/02-tourism"><img src="case-studies/02-tourism/tourism.png" alt="Line chart of EU tourism nights compared with the same month in 2019, 2020–2025"></a><br>
-<b>Foreign tourists returned a year later, but by 2025 were 13% above 2019</b><br>
-<img src="https://img.shields.io/badge/Tourism-FDEBD3" alt="Tourism">
-</td>
+<a href="case-studies/02-tourism/"><img src="case-studies/02-tourism/tourism.png" width="100%" alt="Line chart: EU tourism nights as % of the same month in 2019, domestic and foreign, 2020–2025"></a>
+<br><b><a href="case-studies/02-tourism/">After COVID, EU domestic tourism recovered first, but foreign grew more</a></b>
+<br><img src="https://img.shields.io/badge/Tourism-FDEBD3" alt="Tourism">
+ </td> 
 <td width="33%" valign="top">
 <img src="case-studies/coming-soon.png" alt="Coming soon"><br>
 <b>Working from home after the pandemic</b> · coming soon<br>
