@@ -13,7 +13,7 @@
 # Run this script from its own folder (case-studies/06-digital-skills/).
 # In RStudio: Session > Set Working Directory > To Source File Location.
 # If your file has a different name, change it here.
-file_dsk <- "../../data/isoc_sk_dskl_i21.xlsx"
+file_dsk <- "isoc_sk_dskl_i21__custom_23693342_spreadsheet.xlsx"   # in this folder
 sheet    <- "Sheet 23"
 y0       <- "2021"   # first year of the new indicator
 y1       <- "2025"   # latest year
@@ -71,7 +71,6 @@ stopifnot(all(eu27 %in% dsk$geo), !anyNA(dsk$v0), !anyNA(dsk$v1))
 eu      <- dsk |> filter(geo == eu_name)                     # 53.9 -> 60.4
 ctry    <- dsk |> filter(geo != eu_name)
 n_reach <- sum(ctry$v1 >= target)                            # 4
-n_up    <- sum(ctry$v1 > ctry$v0)
 # the title says only a few countries have reached the target
 stopifnot(eu$v1 < target, n_reach >= 1, n_reach <= 5)
 
@@ -85,11 +84,12 @@ rows <- dsk |>
          reached = v1 >= target)
 
 # 4. COLOURS & TEXT --------------------------------------------------------
-c_done  <- "#1F7A80"    # dark teal: target reached
-c_todo  <- "#8CC3C6"    # light teal: not yet
-c_todo_txt <- "#5E9EA2" # darker shade of light teal, for text
-c_track <- "#EDEDED"    # empty part of the bar
-ink     <- "#1A1A1A"; muted <- "#5A5A5A"; faint <- "#7A7A7A"; grid <- "#E6E6E6"
+c_done     <- "#1F7A80"    # dark teal: target reached
+c_todo     <- "#8CC3C6"    # light teal: not yet
+c_todo_txt <- "#5E9EA2"    # darker shade of light teal, for text
+c_track    <- "#EDEDED"    # empty part of the bar
+ink        <- "#1A1A1A"; muted <- "#5A5A5A"; faint <- "#7A7A7A"; grid <- "#E6E6E6"
+fmt        <- \(x) formatC(round(x + 1e-9, 1), format = "f", digits = 1)   # 74.55 -> 74.6
 
 tt <- paste0("In ", y1, ", only ", n_reach, " EU countries had reached the 2030 ",
              "digital skills target")
@@ -97,10 +97,9 @@ tt <- paste0("In ", y1, ", only ", n_reach, " EU countries had reached the 2030 
 st <- paste0(
   "People aged 16–74 with basic or above basic digital skills, % in ", y1, ". ",
   "The EU's 2030 target is ", target, "%. In the EU the share rose from ",
-  format(eu$v0, nsmall = 1, digits = 3), "% in ", y0, " to ",
-  format(eu$v1, nsmall = 1, digits = 3), "%. <span style='color:", c_done, "'>**",
-  n_reach, " countries**</span> have reached the target; ",
-  "<span style='color:", c_todo_txt, "'>**", 27 - n_reach, "**</span> have not. ",
+  fmt(eu$v0), "% in ", y0, " to ", fmt(eu$v1), "%. ",
+  "<span style='color:", c_done, "'>**", n_reach, " countries**</span> have reached the ",
+  "target; <span style='color:", c_todo_txt, "'>**", 27 - n_reach, "**</span> have not. ",
   "The black tick on each bar shows ", y0, ".")
 
 ct <- paste0("Data for ", y0, ", 2023 and ", y1, " use the same method; earlier years ",
@@ -125,7 +124,7 @@ p <- ggplot(rows, aes(y = name)) +
   annotate("text", x = target, y = nrow(rows) + 1, label = paste0("2030 target: ", target, "%"),
            family = fam, size = 2.4, colour = muted, vjust = 0) +
   # values at the end of each bar
-  geom_text(aes(x = 103, label = format(round(v1, 1), nsmall = 1),
+  geom_text(aes(x = 103, label = fmt(v1),
                 fontface = if_else(is_eu, "bold", "plain")),
             colour = if_else(rows$reached, c_done, muted),
             hjust = 0, family = fam, size = 2.4) +

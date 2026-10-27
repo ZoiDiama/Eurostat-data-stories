@@ -35,7 +35,7 @@ So the EU is moving towards its target, but slowly. If the pace of 2021–2025 c
 
 ## Working with the data
 
-- **Dataset:** [`isoc_sk_dskl_i21`](https://ec.europa.eu/eurostat/databrowser/view/isoc_sk_dskl_i21/default/table), individuals' level of digital skills (from 2021 onwards), from the EU survey on ICT usage in households and by individuals. Indicator: individuals with basic or above basic overall digital skills, % of individuals aged 16–74. The chart uses Sheet 23 of `isoc_sk_dskl_i21_household.xlsx` (all individuals); the age table uses `isoc_sk_dskl_i21_age.xlsx`.
+- **Dataset:** [`isoc_sk_dskl_i21`](https://ec.europa.eu/eurostat/databrowser/view/isoc_sk_dskl_i21/default/table), individuals' level of digital skills (from 2021 onwards), from the EU survey on ICT usage in households and by individuals. Indicator: individuals with basic or above basic overall digital skills, % of individuals aged 16–74. The chart uses Sheet 23 of `isoc_sk_dskl_i21__custom_23693342_spreadsheet.xlsx` (all individuals); the age table uses `isoc_sk_dskl_i21__custom_23693649_spreadsheet.xlsx`.
 - **A new indicator, not comparable with my item.** My 2020 item used the old indicator ([`isoc_sk_dskl_i`](https://ec.europa.eu/eurostat/databrowser/view/isoc_sk_dskl_i/default/table), until 2019). From 2021 Eurostat measures digital skills with a new, longer set of survey questions across five areas: information and data literacy, communication and collaboration, digital content creation, safety, and problem solving. A person has "basic or above basic" skills only if they reach at least the basic level in all five. The two series cannot be joined into one line, which is why the chart starts in 2021.
 - **Every two years.** The new indicator is collected in odd years: 2021, 2023 and 2025.
 - **Not every breakdown is published every year.** The split by household type (with and without children) is available for 2021 and 2023 but not yet for 2025, so the comparison with my item stops in 2023.
@@ -54,4 +54,4 @@ So the EU is moving towards its target, but slowly. If the pace of 2021–2025 c
 
 ## Code
 
-[`digital-skills.R`](digital-skills.R) · data in [`data/isoc_sk_dskl_i21_household.xlsx`](../../data/isoc_sk_dskl_i21_household.xlsx), Sheet 23; age figures from [`data/isoc_sk_dskl_i21_age.xlsx`](../../data/isoc_sk_dskl_i21_age.xlsx)
+[`digital-skills.R`](digital-skills.R) · data in [`isoc_sk_dskl_i21__custom_23693342_spreadsheet.xlsx`](isoc_sk_dskl_i21__custom_23693342_spreadsheet.xlsx), Sheet 23; age figures from [`isoc_sk_dskl_i21__custom_23693649_spreadsheet.xlsx`](isoc_sk_dskl_i21__custom_23693649_spreadsheet.xlsx)
