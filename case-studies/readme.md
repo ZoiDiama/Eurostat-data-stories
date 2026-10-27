@@ -13,7 +13,7 @@ Six of my Eurostat news items from 2020–2021, revisited with the latest data. 
 
 ## How each write-up is structured
 
-1. **What was published:** a short summary of the original news item, in my own words, with a link to it
+1. **What was published:** a short summary of the original news item
 2. **What I explored further:** the latest data, longer trends and breakdowns the news format didn't allow
 3. **Working with the data:** dataset codes, flags, breaks in series and other details that change the numbers
 4. **Design choices:** why the chart looks the way it does
