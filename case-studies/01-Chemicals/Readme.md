@@ -1,7 +1,6 @@
 # 01 · Production of chemicals in the EU
 
-![EU chemical production fell 19% during the energy crisis](case-studies/01-Chemicals/chemicals.png)
-
+![In 2024 EU produced 14% fewer chemicals than in 2015](chemicals.png)
 ## What was published
 
 **Eurostat news item, 21 January 2020** · [Production of chemicals](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/ddn-20200121-1)
