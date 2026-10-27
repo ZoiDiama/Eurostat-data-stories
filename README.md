@@ -20,7 +20,7 @@ Each case study follows the same structure: **what was published** → **what I 
 <img src="https://img.shields.io/badge/Environment%20and%20energy-E3F2E3" alt="Environment and energy">
 </td>
 <td width="33%" valign="top">
-<a href="case-studies/02-tourism/"><img src="case-studies/02-tourism/tourism.png" width="100%" alt="Line chart: EU tourism nights as % of the same month in 2019, domestic and foreign, 2020–2025"></a>
+<a href="case-studies/02-Tourism/"><img src="case-studies/02-Tourism/tourism.png" width="100%" alt="Line chart: EU tourism nights as % of the same month in 2019, domestic and foreign, 2020–2025"></a>
 <br><b><a href="case-studies/02-tourism/">After COVID, EU domestic tourism recovered first, but foreign grew more</a></b>
 <br><img src="https://img.shields.io/badge/Tourism-FDEBD3" alt="Tourism">
  </td> 
