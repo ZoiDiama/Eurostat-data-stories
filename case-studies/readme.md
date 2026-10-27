@@ -1,32 +1,31 @@
 # Case studies
 
-Each case study goes back to one of my Eurostat news items, updates it with the latest data and takes the analysis further than the news format allowed. Each one also shows a different part of working with Eurostat data.
+Six of my Eurostat news items from 2020–2021, revisited with the latest data. Each folder has the write-up (`README.md`), the R script and the chart.
 
-| # | Case study | Original news item | Dataset | Working with the data |
-|---|---|---|---|---|
-| 01 | [Production of chemicals in the EU](01-chemicals/) | [21 Jan 2020](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/ddn-20200121-1) | `env_chmhaz` | EU-28 vs EU-27, overlapping categories |
-| 02 | [Tourism nights in the EU after the pandemic](02-tourism/) | [16 Jul 2020](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200716-1) | `tour_occ_nim` | Monthly data, seasonality, published comparisons |
-| 03 | Working from home *· coming soon* | [24 Apr 2020](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/DDN-20200424-1) | | Breaks in series |
-| 04 | Early school leavers *· coming soon* | [24 Jun 2021](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/ddn-20210624-2) | | Flags, EU targets |
-| 05 | Regional map: deaths from prostate cancer *· coming soon* | [19 Nov 2020](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/EDN-20201119-1) | | Standardised death rates, NUTS regions |
-| 06 | ICT specialists *· coming soon* | [16 Jul 2021](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/ddn-20210716-1) | | Definitions, EU targets |
+| # | Story | Original news item | Dataset | Question I explore | Status |
+|---|---|---|---|---|---|
+| 01 | [Production of chemicals](01-chemicals/) | 21 Jan 2020 | `env_chmhaz` | What happened to production after 2018? | ✅ Done |
+| 02 | [Tourism after the pandemic](02-tourism/) | 16 Jul 2020 | `tour_occ_nim` | How long did EU tourism take to recover, and did domestic and foreign tourists recover differently? | ✅ Done |
+| 03 | Working from home | 24 Apr 2020 | `lfsa_ehomp` <!-- ✏️ confirm code --> | Did working from home stay after the pandemic, and where did it change most? | Coming soon |
+| 04 | Early school leavers | 24 Jun 2021 | `edat_lfse_14` <!-- ✏️ confirm code --> | Has the EU reached its 2030 target of under 9%, and which countries are far from it? | Coming soon |
+| 05 | Prostate cancer deaths in EU regions | 19 Nov 2020 | `hlth_cd_asdr2` <!-- ✏️ confirm code --> | Where are men most likely to die from prostate cancer, once we account for age? | Coming soon |
+| 06 | ICT specialists | 16 Jul 2021 | `isoc_sks_itspt` <!-- ✏️ confirm code --> | Is the EU on track for 20 million ICT specialists by 2030, and how large is the gender gap? | Coming soon |
 
-## How each case study is organised
+## How each write-up is structured
 
-Every folder has the same three files:
+1. **What was published:** a short summary of the original news item, in my own words, with a link to it
+2. **What I explored further:** the latest data, longer trends and breakdowns the news format didn't allow
+3. **Working with the data:** dataset codes, flags, breaks in series and other details that change the numbers
+4. **Design choices:** why the chart looks the way it does
+5. **Code:** how to run the script
 
-| File | What's inside |
-|---|---|
-| `README.md` | The write-up: what was published, what I explored further, working with the data, design choices |
-| `<name>.R` | The R script that reads the data and makes the chart |
-| `<name>.png` | The chart |
+## How to run a script
 
-The data files are in the [`data/`](../data/) folder at the top of the repo, as downloaded from the Eurostat data browser.
+1. Download the repo.
+2. Open the script in RStudio, for example `02-tourism/tourism.R`.
+3. Install the packages listed at the top of the script.
+4. Run it. It reads the data from the `data/` folder and saves the chart next to the script.
 
-## Running the code
+<!-- ✏️ Add your R version here, e.g. "Tested with R 4.4". -->
 
-1. Open the case study's `.R` file in RStudio.
-2. Choose **Session → Set Working Directory → To Source File Location**.
-3. Run the whole script. It installs any missing packages and saves the chart as a `.png` in the same folder.
-
-The first run needs an internet connection to load the Poppins font.
+[← Back to the main page](../README.md)
