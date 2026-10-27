@@ -39,7 +39,7 @@ Each case study follows the same structure: **what was published** → **what I 
 <td width="33%" valign="top">
 <img src="case-studies/05-deaths-from-influenze/influenza.png" alt="Coming soon"><br>
 <b>Prostate cancer deaths across EU regions</b> · coming soon<br>
-<img src="https://img.shields.io/badge/Health%20(regional%20map)-FCE4EC" alt="Health (regional map)">
+<img src="https://img.shields.io/badge/Health%20(regional%20map)-FCE4EC" alt="Health">
 </td>
 <td width="33%" valign="top">
 <img src="case-studies/coming-soon.png" alt="Coming soon"><br>
