@@ -50,4 +50,4 @@ So the pandemic did not just add a new cause of death; for a year it almost remo
 
 ## Code
 
-[`influenza.R`](influenza.R) · data in [`data/hlth_cd_asdr2.xlsx`](../../data/hlth_cd_asdr2.xlsx), Sheet 5
+[`influenza.R`](influenza.R) · data in [`hlth_cd_asdr2__custom_23691539_spreadsheet.xlsx`](hlth_cd_asdr2__custom_23691539_spreadsheet.xlsx), Sheet 5

@@ -9,10 +9,10 @@
 # all ages, rate per 100 000 inhabitants, age-standardised.
 
 # 0. SETUP -----------------------------------------------------------------
-# Run this script from its own folder (case-studies/05-influenza/).
+# Run this script from its own folder (case-studies/05-deaths-from-influenze/).
 # In RStudio: Session > Set Working Directory > To Source File Location.
 # If your file has a different name, change it here.
-file_flu <- "../../data/hlth_cd_asdr2.xlsx"
+file_flu <- "hlth_cd_asdr2__custom_23691539_spreadsheet.xlsx"   # in this folder
 sheet    <- "Sheet 5"
 y_low    <- "2021"   # the year flu deaths almost vanished
 y_before <- "2019"   # the last year before COVID
