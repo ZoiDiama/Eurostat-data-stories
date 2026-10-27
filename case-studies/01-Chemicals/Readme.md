@@ -1,6 +1,6 @@
 # 01 · Production of chemicals in the EU
 
-![EU chemical production fell 19% during the energy crisis](case-studies/01-Chemicals/chemicals.png)
+![EU chemical production fell 19% during the energy crisis](chemicals.png)
 
 ## What was published
 
